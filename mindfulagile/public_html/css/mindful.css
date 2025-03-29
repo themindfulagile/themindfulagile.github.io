@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'Sumi';
+    src: url('Sumibrush.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply it globally or selectively */
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+body {
+    font-family: 'CustomFont', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e8e2ce;
+    color: #333;
+}
+header {
+    background-image: url('banner.jpg'); /* Replace with your banner URL */
+    background-size: cover;
+    background-position: center;
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    text-align: center;
+    padding: 0 10px;
+}
+header img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+header h1 {
+    font-size: 48px;
+    margin: 0;
+}
+.top-dimensions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    border-top: 4px solid #3d5a5a;
+    border-bottom: 4px solid #3d5a5a;
+    padding: 20px 10px;
+    text-align: center;
+}
+.dimension-box {
+    max-width: 280px;
+    padding: 15px;
+    margin: 10px;
+    background-color: #f0f8ff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.dimension-box h3 {
+    color: #2f4f4f;
+    font-size: 20px;
+}
+.dimension-box p {
+    font-size: 14px;
+}
+.container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.section {
+    margin-bottom: 40px;
+}
+.section h2 {
+    color: #2f4f4f;
+}
+footer {
+    background: #2f4f4f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+    .container {
+        padding: 0 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+    header img {
+        width: 80px;
+    }
+    .section h2 {
+        font-size: 20px;
+    }
+}
+.banner-table-row {
+  display: flex;
+  padding: 0px;
+  background-color: #e8e2ce;
+  
+  }
+
+.banner-table-row .banner-col {
+  background-color: #e8e2ce;
+  height: 131px;
+  font-family: 'Sumi';
+  font-size: 48px;
+  display: flex;
+  align-items: center;      /* Vertical alignment */
+  justify-content: center;  /* Horizontal alignment */
+  text-align:left ;
+  flex: 2;
+}
+.bannerimg{
+  flex: 2;
+}
+.bannercenterimg {
+    width: 131px;
+  height: 131px;
+}
+
+.banner-text-col{
+    width: 375px;
+  height: 131px;
+     
+}
+
+
+
+
+/* Stack on small screens */
+@media (max-width: 768px) {
+  .banner-table-row {
+    flex-direction: column;
+  }
+}
