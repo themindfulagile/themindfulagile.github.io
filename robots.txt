@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rubenfragoso.github.io/sitemap.xml
+
+# Block common junk paths
+Disallow: /wp-admin/
+Disallow: /wp-content/
+Disallow: /*.json$
