@@ -1,0 +1,12 @@
+# Mindful Agile
+
+> Leadership, agility and clarity — coaching and consulting for people and teams ready to grow with intention.
+
+Mindful Agile blends agile coaching, leadership development and mindfulness practice to help individuals, leaders and organizations lead themselves first — and then everything else.
+
+## Pages
+
+- [Home](/): Overview of Mindful Agile and how we work.
+- [Services](/services): Leadership Development, Agile Transformation, Self Leadership, and Career Consulting.
+- [About](/about): Our philosophy, values, and engagement approach.
+- [Contact](/contact): Book a discovery call or send a message.
