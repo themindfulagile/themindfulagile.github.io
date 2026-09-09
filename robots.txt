@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rubenfragoso.github.io/sitemap.xml
+Sitemap: https://themindfulagile.github.io/sitemap.xml
 
 # Block common junk paths
 Disallow: /wp-admin/
