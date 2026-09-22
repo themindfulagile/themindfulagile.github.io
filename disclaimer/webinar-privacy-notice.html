@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Webinar Privacy Notice</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Public+Sans:wght@400;600;700&display=swap">
+<style>
+:root{
+  --bg:#F6F2E9; --surface:#FFFDF8; --ink:#14213D; --body:#3D4657; --muted:#687085;
+  --rule:#E2D9C4; --gold:#C9A227; --gold-ink:#7E6010; --mark:#F3E3A8; --mark-ink:#4A3A08;
+  --serif:'Libre Baskerville', Georgia, 'Times New Roman', serif;
+  --sans:'Public Sans', 'Segoe UI', Arial, sans-serif;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#101a30; --surface:#16233F; --ink:#F1ECE0; --body:#C6CEDC; --muted:#93A0B8;
+    --rule:#2A3A60; --gold:#D8B545; --gold-ink:#E2C160; --mark:#4A3D12; --mark-ink:#F6E3A0;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#101a30; --surface:#16233F; --ink:#F1ECE0; --body:#C6CEDC; --muted:#93A0B8;
+  --rule:#2A3A60; --gold:#D8B545; --gold-ink:#E2C160; --mark:#4A3D12; --mark-ink:#F6E3A0;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+body{margin:0; background:var(--bg); color:var(--body); font-family:var(--sans); font-size:17px; line-height:1.6; padding-inline:20px; padding-block:48px 72px}
+.wrap{max-width:760px; margin:0 auto; display:flex; flex-direction:column; gap:48px}
+h1,h2,h3{color:var(--ink); text-wrap:balance; margin:0}
+h1{font-family:var(--serif); font-size:clamp(32px,6vw,48px); line-height:1.15; font-weight:700}
+h2{font-family:var(--serif); font-size:24px; line-height:1.3; font-weight:700}
+h3{font-size:18px; font-weight:700}
+p{margin:0}
+.eyebrow{font-size:13px; letter-spacing:.14em; text-transform:uppercase; font-weight:700; color:var(--gold-ink)}
+header{display:flex; flex-direction:column; gap:16px; border-bottom:4px solid var(--gold); padding-bottom:28px}
+.lede{font-size:19px; color:var(--body); max-width:62ch}
+.meta{font-size:14px; color:var(--muted)}
+section{display:flex; flex-direction:column; gap:16px}
+.glance{background:var(--surface); border:1px solid var(--rule); border-radius:10px; padding:24px 28px; display:flex; flex-direction:column; gap:12px}
+.glance ul{margin:0; padding-left:1.2em; display:flex; flex-direction:column; gap:8px}
+.glance li::marker{color:var(--gold)}
+.uses{display:flex; flex-direction:column; border-top:1px solid var(--rule)}
+.use{display:flex; flex-direction:column; gap:10px; padding-block:22px; border-bottom:1px solid var(--rule)}
+.use dl{margin:0; display:grid; grid-template-columns:150px 1fr; gap:6px 20px}
+.use dt{font-size:13px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:var(--muted); padding-top:3px}
+.use dd{margin:0}
+.basis{display:inline-block; font-size:13px; font-weight:600; color:var(--gold-ink); border:1px solid var(--gold); border-radius:999px; padding:1px 10px; margin-left:6px; white-space:nowrap}
+.rights{display:grid; grid-template-columns:repeat(2,1fr); gap:12px 28px; margin:0; padding:0; list-style:none}
+.rights li{border-left:2px solid var(--gold); padding-left:14px}
+.rights b{color:var(--ink); display:block}
+.note{background:var(--surface); border:1px solid var(--rule); border-radius:10px; padding:20px 24px}
+.contact{display:grid; grid-template-columns:150px 1fr; gap:6px 20px; margin:0}
+.contact dt{font-size:13px; letter-spacing:.08em; text-transform:uppercase; font-weight:700; color:var(--muted); padding-top:3px}
+.contact dd{margin:0; color:var(--ink)}
+mark{background:var(--mark); color:var(--mark-ink); padding:0 4px; border-radius:3px}
+a{color:var(--ink); text-decoration-color:var(--gold); text-underline-offset:3px}
+a:focus-visible{outline:2px solid var(--gold); outline-offset:2px}
+footer{font-size:14px; color:var(--muted); border-top:1px solid var(--rule); padding-top:20px}
+@media (max-width:560px){
+  body{font-size:16px}
+  .use dl,.contact{grid-template-columns:1fr; gap:2px}
+  .use dd,.contact dd{margin-bottom:10px}
+  .rights{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <p class="eyebrow">Mindful Agile · Webinar series</p>
+    <h1>How we use your data at this event</h1>
+    <p class="lede">This notice explains what personal data we collect when you register for and take part in a Mindful Agile webinar, why we collect it, how long we keep it, and the rights you have under the EU General Data Protection Regulation (GDPR, Regulation (EU) 2016/679) and Portuguese Law 58/2019.</p>
+    <p class="meta">Applies to: <mark>The Conformity Tax · [Date]</mark> and later sessions in the series · Last updated <mark>[Date]</mark></p>
+  </header>
+
+  <section class="glance" aria-labelledby="glance-h">
+    <h2 id="glance-h">In short</h2>
+    <ul>
+      <li>We only collect what we need to run the webinar and send you the follow-up materials.</li>
+      <li>Poll answers are anonymous. Nothing you say or type is used to evaluate you as an individual.</li>
+      <li>We never sell your data or pass it to anyone for their own marketing.</li>
+      <li>We only send newsletters or invitations to future events if you opted in. You can opt out at any time.</li>
+      <li>You can ask to see, correct or delete your data whenever you like.</li>
+    </ul>
+  </section>
+
+  <section aria-labelledby="who-h">
+    <h2 id="who-h">Who is responsible for your data</h2>
+    <p>The data controller is Mindful Agile:</p>
+    <dl class="contact">
+      <dt>Entity</dt><dd><mark>[Legal name]</mark>, NIF <mark>[number]</mark></dd>
+      <dt>Address</dt><dd><mark>[Registered address, Portugal]</mark></dd>
+      <dt>Privacy contact</dt><dd><mark>[privacy contact email]</mark></dd>
+    </dl>
+  </section>
+
+  <section aria-labelledby="what-h">
+    <h2 id="what-h">What we collect, why, and for how long</h2>
+    <div class="uses">
+      <div class="use">
+        <h3>Registration</h3>
+        <dl>
+          <dt>Data</dt><dd>Name, email address and, if you provide them, your organisation and role.</dd>
+          <dt>Purpose</dt><dd>To register you, send the joining link and reminders, and share the slides and recording afterwards.</dd>
+          <dt>Legal basis</dt><dd>Performing the service you asked for <span class="basis">Art. 6(1)(b)</span></dd>
+          <dt>Kept for</dt><dd><mark>[6 months]</mark> after the event, then deleted.</dd>
+        </dl>
+      </div>
+      <div class="use">
+        <h3>Attendance data</h3>
+        <dl>
+          <dt>Data</dt><dd>When you joined and left, and the basic technical data the webinar platform needs to connect you.</dd>
+          <dt>Purpose</dt><dd>To run the session, help with technical problems and count attendance in aggregate.</dd>
+          <dt>Legal basis</dt><dd>Legitimate interest in running and improving the event <span class="basis">Art. 6(1)(f)</span></dd>
+          <dt>Kept for</dt><dd><mark>[90 days]</mark>. Only aggregate figures, such as the number of attendees, are kept after that.</dd>
+        </dl>
+      </div>
+      <div class="use">
+        <h3>Session recording</h3>
+        <dl>
+          <dt>Data</dt><dd>The presenter's audio, video and slides. Your name, voice, image or chat messages appear only if you unmute, turn on your camera or post in the chat.</dd>
+          <dt>Purpose</dt><dd>To share the recording with registered participants.</dd>
+          <dt>Legal basis</dt><dd>Legitimate interest <span class="basis">Art. 6(1)(f)</span>. We'll announce the recording at the start of the session, and you can take part with your camera off and under any display name you like.</dd>
+          <dt>Kept for</dt><dd><mark>[12 months]</mark>. It is never published publicly without asking the people who appear in it first.</dd>
+        </dl>
+      </div>
+      <div class="use">
+        <h3>Polls, chat and questions</h3>
+        <dl>
+          <dt>Data</dt><dd>Poll answers, which are anonymous and only ever reported as totals, and chat messages or questions, which the other participants can see.</dd>
+          <dt>Purpose</dt><dd>To run the interactive exercises and answer your questions.</dd>
+          <dt>Legal basis</dt><dd>Legitimate interest <span class="basis">Art. 6(1)(f)</span></dd>
+          <dt>Kept for</dt><dd>Chat logs are deleted within <mark>[30 days]</mark>. Anonymous totals may be quoted, for example "most of the audience chose B".</dd>
+        </dl>
+      </div>
+      <div class="use">
+        <h3>Feedback form <span class="meta">(optional)</span></h3>
+        <dl>
+          <dt>Data</dt><dd>Your answers, and your email address only if you choose to give it.</dd>
+          <dt>Purpose</dt><dd>To improve future sessions.</dd>
+          <dt>Legal basis</dt><dd>Consent <span class="basis">Art. 6(1)(a)</span></dd>
+          <dt>Kept for</dt><dd><mark>[12 months]</mark>, or until you withdraw your consent.</dd>
+        </dl>
+      </div>
+      <div class="use">
+        <h3>News and future events <span class="meta">(only if you opt in)</span></h3>
+        <dl>
+          <dt>Data</dt><dd>Name and email address.</dd>
+          <dt>Purpose</dt><dd>To invite you to later sessions and send occasional Mindful Agile updates.</dd>
+          <dt>Legal basis</dt><dd>Consent <span class="basis">Art. 6(1)(a)</span>. Every message has an unsubscribe link.</dd>
+          <dt>Kept for</dt><dd>Until you unsubscribe.</dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <section aria-labelledby="exercise-h">
+    <h2 id="exercise-h">A note on the interactive exercises</h2>
+    <p class="note">Some exercises show how group dynamics shape the answers people give. Parts of an exercise may be set up in advance by the host team. When they are, we explain this during the same session. Your answers are never scored, reported or linked to you by name, and taking part is always optional.</p>
+  </section>
+
+  <section aria-labelledby="share-h">
+    <h2 id="share-h">Who else handles your data</h2>
+    <p>We use a small number of service providers that process data only on our instructions, under data processing agreements as required by Article 28 GDPR:</p>
+    <dl class="contact">
+      <dt>Webinar platform</dt><dd><mark>[e.g. Zoom / Microsoft Teams / Livestorm]</mark></dd>
+      <dt>Registration and email</dt><dd><mark>[e.g. Google Workspace / Mailchimp]</mark></dd>
+      <dt>Feedback form</dt><dd><mark>[e.g. Google Forms / Tally]</mark></dd>
+    </dl>
+    <p>If any of these providers processes data outside the European Economic Area, the transfer is protected by an EU adequacy decision (such as the EU–US Data Privacy Framework) or by the European Commission's Standard Contractual Clauses.</p>
+    <p>We do not sell your data, share it with third parties for their own marketing, or use it for automated decision-making or profiling.</p>
+  </section>
+
+  <section aria-labelledby="rights-h">
+    <h2 id="rights-h">Your rights</h2>
+    <ul class="rights">
+      <li><b>Access</b>Ask for a copy of the data we hold about you.</li>
+      <li><b>Rectification</b>Have inaccurate data corrected.</li>
+      <li><b>Erasure</b>Ask us to delete your data.</li>
+      <li><b>Restriction</b>Ask us to limit how we use it.</li>
+      <li><b>Portability</b>Receive your data in a common, machine-readable format.</li>
+      <li><b>Objection</b>Object to processing based on legitimate interest.</li>
+      <li><b>Withdraw consent</b>At any time, without affecting what was done before.</li>
+      <li><b>Complain</b>To the Portuguese supervisory authority, the CNPD (<a href="https://www.cnpd.pt" target="_blank" rel="noopener">www.cnpd.pt</a>).</li>
+    </ul>
+    <p>To use any of these rights, write to <mark>[privacy contact email]</mark>. We will reply within one month, as the GDPR requires.</p>
+  </section>
+
+  <section aria-labelledby="tips-h">
+    <h2 id="tips-h">Taking part with minimal data</h2>
+    <p>You can watch with your camera and microphone off, use any display name, and send questions privately to the host instead of posting them in the public chat.</p>
+  </section>
+
+  <footer>
+    <p>Mindful Agile · We may update this notice. The version that applies to your event is the one dated above.</p>
+  </footer>
+</div>
+</body>
+</html>
